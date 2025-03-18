@@ -1,4 +1,6 @@
 import data from './data'
+import Product from './components/product';
+
 
 function App() {
     return (<div className="grid-container">
@@ -16,31 +18,7 @@ function App() {
             <div className="row center">
                 {
                     data.products.map(prod => (
-                        <div key={prod._id} className="card">
-                            <div className="card-head">
-                                <a href={`/product/${prod._id}`}>
-                                    <img className="medium" src={`.${prod.image}`} alt={prod.name} />
-                                </a>
-                            </div>
-
-                            <div className="card-body">
-                                <a href="product.html">
-                                    <h2>{prod.name}</h2>
-                                </a>
-                                <div className="rating">
-                                    <span>
-                                        <i className="fa fa-star"></i>
-                                        <i className="fa fa-star"></i>
-                                        <i className="fa fa-star"></i>
-                                        <i className="fa fa-star"></i>
-                                        <i className="fa fa-star"></i>
-                                    </span>
-                                </div>
-                                <div className="price">
-                                    ${prod.price}
-                                </div>
-                            </div>
-                        </div>
+                        <Product key={prod._id} prod = {prod} /> 
                     ))
                 }
 

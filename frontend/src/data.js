@@ -10,7 +10,7 @@ const data = {
             image: '/images/1.jpg',
             brand: 'Segula',
             rating: 4.5,
-            numReview: 10,
+            numReviews: 10,
             description: 'Ramadan Kareem'
         },
         {
@@ -21,7 +21,7 @@ const data = {
             image: '/images/2.jpg',
             brand: 'Segula',
             rating: 5,
-            numReview: 6,
+            numReviews: 6,
             description: 'Ramadan Kareem'
         },
         {
@@ -32,7 +32,7 @@ const data = {
             image: '/images/3.jpg',
             brand: 'Segula',
             rating: 4.5,
-            numReview: 10,
+            numReviews: 10,
             description: 'Ramadan Kareem'
         },
         {
@@ -43,7 +43,7 @@ const data = {
             image: '/images/4.jpg',
             brand: 'Segula',
             rating: 2.5,
-            numReview: 127,
+            numReviews: 127,
             description: 'Ramadan Kareem'
         },
         {
@@ -54,7 +54,7 @@ const data = {
             image: '/images/5.jpg',
             brand: 'Segula',
             rating: 4.5,
-            numReview: 67,
+            numReviews: 67,
             description: 'Ramadan Kareem'
         }
     ]

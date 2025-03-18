@@ -55,8 +55,9 @@ a{
   text-decoration: none;
 }
 
-a:hover{
-  color: #ff8000;
+a.links{
+  margin : 0px 5px;
+  color: white ;
 }
 a.brand{
   color: white;
@@ -64,10 +65,12 @@ a.brand{
   font-weight: bold;
 }
 
-a.links{
-  margin : 0px 5px;
-  color: white ;
+a:hover{
+  color: #ff8000;
 }
+
+
+
 
 .row{
   display: flex;
@@ -122,4 +125,8 @@ h2{
 .rating span{
   color: #f0c040;
   margin:1px
+}
+
+.rating span:last-child{
+  color: #203040;
 }

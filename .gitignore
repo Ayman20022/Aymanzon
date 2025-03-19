@@ -2,6 +2,6 @@ package.json
 package-lock.json
 template
 frontend/node_modules
-frontend/public
+
 frontend/src/reportWebVitals.js
-frontend/src/index.js
+node_modules/

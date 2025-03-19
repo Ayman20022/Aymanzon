@@ -6,13 +6,13 @@ export default function Product(props){
     return (
         <div key={prod._id} className="card">
                             <div className="card-head">
-                                <a href={`/product/${prod._id}`}>
+                                <a href={'/product/'+prod._id}>
                                     <img className="medium" src={`.${prod.image}`} alt={prod.name} />
                                 </a>
                             </div>
 
                             <div className="card-body">
-                                <a href="product.html">
+                                <a href={'/product/'+prod._id}>
                                     <h2>{prod.name}</h2>
                                 </a>
                                 <Rating rating={prod.rating} numReviews={prod.numReviews}/>
